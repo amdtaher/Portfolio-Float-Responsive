@@ -1,0 +1,523 @@
+/* Large Device Checking Size- 1000px */
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .container{
+        width: 970px;
+    }
+    /* Header Section */
+    .navigation-bar{
+        width: 840px;
+    }
+    .navigation-bar ul li a{
+        margin-left: 14px;
+    }
+    /* Banner Section */
+    .banner-left{
+        width: 446px;
+    }
+    .banner-left h1{
+        font-size: 66px;
+    }
+    .banner-right{
+        width: 524px;
+    }
+    /* About Section */
+    .about-text{
+        width: 640px;
+    }
+    /* Features Section */
+    .single-feature {
+        width: 200px;
+        margin-right: 10px;
+    }
+    .features-box {
+        padding: 40px;
+    }
+    /* About 2 Section */
+    .about2 .about-image {
+        width: 280px;
+        margin-right: 20px;
+    }
+    .about2 .about-text {
+        width: 670px;
+    }
+    .about2 .about-text ul {
+        float: left;
+        width: 216px;
+        margin-right: 10px;
+    }
+    /* Services Section */
+    .single-service{
+        width: 227px;
+    }
+    .single-service h3 {
+        font-size: 18px;
+    }
+    /* SKills Section */
+    .single-skill{
+        width: 485px;
+    }
+    /* Project Section */
+    .single-project {
+        width: 303px;
+    }
+    /* Prices Section */
+    .single-price{
+        width: 310px;
+        margin: 0 20px 0 0;
+    }
+    .single-price:last-child{
+        margin-right: 0;
+    }
+    /* Blogs Section */
+    .single-blog {
+        width: 310px;
+        margin: 0 20px 0 0;
+    }
+    .single-blog:last-child{
+        margin-right: 0;
+    }
+    /* Contact Section */
+    .contact{
+        width: 930px;
+    }
+    .contact-form{
+        width: 500px;
+        margin-right: 20px;
+    }
+    .contact-info{
+        width: 370px;
+    }
+    .single-info {
+        position: relative;
+        padding: 0 50px;
+        margin: 0 0 20px 50px;
+    }
+    /* Footer Section */
+    .single-footer{
+        width: 256px;
+    }
+    .single-footer:first-child{
+        width: 397px;
+    }
+}
+
+/* Tablet Device Checking Size- 800px */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    /* Header Section */
+    header{
+        margin-top: 0;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img{
+        max-width: 15%;
+    }
+    .navigation-bar{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .navigation-bar ul li a{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    /* Banner Section */
+    .banner-area{
+        padding-bottom: 80px;
+    }
+    .banner-left{
+        width: 270px;
+    }
+    .banner-right{
+        width: 470px;
+    }
+    /* Achievements Section */
+    .achievements{
+        width: 650px;
+    }
+    .achievement{
+        width: 209px;
+    }
+    /* About Section */
+    .about-image{
+        width: 215px;
+        margin-right: 15px;
+    }
+    .about-text{
+        width: 520px;
+    }
+    .about-text p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    /* Features Section */
+    .single-feature {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .features-box {
+        padding: 40px;
+    }
+    /* About 2 Section */
+    .about2 .about-image {
+        width: 100%;
+        text-align: center;
+    }
+    .about2 .about-image img{
+        max-width: 40%;
+    }
+    .about2 .about-text {
+        width: 670px;
+    }
+    .about2 .about-text ul {
+        float: left;
+        width: 216px;
+        margin-right: 10px;
+    }
+    /* Services Section */
+    .single-service{
+        width: 335px;
+        margin: 0 20px 20px 20px ;
+    }
+    .single-service:last-child{
+        margin-right: 20px;
+    }
+    /* Skills Section */
+    .single-skill {
+        width: 375px;
+    }
+    /* Projects Section */
+    .single-project {
+        width: 355px;
+    }
+    /* Prices Section */
+    .single-price {
+        width: 243px;
+        padding: 25px 10px;
+        margin: 0 10px 0 0;
+        box-shadow: 0px 10px 20px var(--light-grey);
+    }
+    .single-price:last-child{
+        margin-right: 0;
+    }
+    /* Reviews Section */
+    .single-review {
+        width: 650px;
+    }
+    /* Blogs Section */
+    .single-blog {
+        width: 243px;
+        margin: 0px 10px 0 0;
+    }
+    .single-blog:last-child{
+        margin-right: 0;
+    }
+    .blog-content h3 {
+        font-size: 19px;
+    }
+    .blog-content span, .blog-content span i {
+        font-size: 12px;
+    }
+    /* Contect Section */
+    .contact {
+        width: 700px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+    .contact-info i{
+        position: static;
+        margin: 0 0 10px 0;
+    }
+    .single-info{
+        padding: 0 0 10px 0;
+        margin: 0 0 10px 0;
+    }
+    /* Footer Section */
+    .single-footer{
+        width: 100%;
+        margin: 0;
+    }
+    .single-footer:first-child {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Mobile Device Checking Size- 400px */
+@media only screen and (max-width:767px){
+    .container{
+        width: 350px;
+    }
+    /* Header Section */
+    header{
+        position: static;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .logo img{
+        max-width:40%;
+    }
+    .navigation-bar{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .navigation-bar ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        transition: .3s;
+    }
+    .navigation-bar ul li a{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .navigation-bar ul li:hover{
+        background-color: var(--primary);
+    }
+    .navigation-bar ul li:hover a,.navigation-bar ul li:hover .active{
+        color: var(--white) !important;
+    }
+    .navigation-bar ul li .btn{
+        border-radius: 10px;
+        padding: 15px 35px;
+    }
+    .navigation-bar ul li:last-child:hover{
+        background-color: transparent !important;
+    }
+    /* Banner Section */
+    .banner-area{
+        padding-bottom: 80px;
+    }
+    .banner-left{
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+    .banner-right{
+        width: 0;
+        margin: 0;
+    }
+    /* Achievements Section */
+    .achievements{
+        width: 350px;
+        margin: 80px 0;
+    }
+    .achievement{
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        border-right: 0;
+    }
+    .achievement:last-child{
+        border-bottom: 0;
+    }
+    /* About Section */
+    .about-image{
+        width: 100%;
+        margin: 0;
+    }
+    .about-text{
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    /* Features Section */
+    .features-area::before{
+        content: '';
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: url(../images/feature-1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .features-area::after{
+        content: '';
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #333;
+        opacity: 0.6;
+    }
+    .features-box{
+        width: 70%;
+    }
+    .single-feature {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .features-box {
+        padding: 10px;
+    }
+    /* About 2 Section */
+    .about2 .about-image {
+        width: 100%;
+    }
+    .about2 .about-text {
+        width: 100%;
+        text-align: center;
+    }
+    .about2 .about-text p{
+        text-align: left;
+    }
+    .about2 .about-text .p2{
+        margin-bottom:20px;
+        text-align: right
+    }
+    .about2 .about-text ul {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about2 .about-text ul li{
+        margin-bottom: 5px;
+    }
+    /* Services Section */
+    .single-service{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    /* Skills Section */
+    .single-skill {
+        width: 100%;
+    }
+    /* Timeslines Section */
+    .timelines::after{
+        left: auto;
+        right: 0%;
+    }
+    .timelines li::after{
+        left: auto;
+        right: -5%;
+    }
+    .timelines li:nth-child(odd):before{
+        content: none;
+    }
+    .timelines li:nth-child(even):before{
+        content: none;
+    }
+    .timelines li:nth-child(even) .single-timeline{
+        float: none;
+        text-align: right;
+    }
+    .single-timeline{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    /* Projects Section */
+    .single-project {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    /* Prices Section */
+    .single-price {
+        width: 100%;
+        padding: 0 0 30px 0;
+        margin: 0 0 30px 0;
+        box-shadow: 0px 10px 20px var(--light-grey);
+    }
+    .single-price .btn{
+        width: 80%;
+    }
+    /* Reviews Section */
+    .single-review {
+        width: 100%;
+    }
+    /* Blogs Section */
+    .single-blog {
+        width: 100%;
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+    /* Hire Section */
+    .hire{
+        width: 100%;
+        text-align: center;
+    }
+    .hire-left{
+        width: 100%;
+    }
+    .hire-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .hire-right .btn{
+        width: 100%;
+    }
+    /* Contect Section */
+    .contact {
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form input{
+        color: var(--dark);
+        font-weight: 550;
+    }
+    .contact-info{
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+    .contact-info i{
+        position: static;
+        margin: 0 0 10px 0;
+    }
+    .single-info{
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    /* Footer Section */
+    .single-footer{
+        width: 100%;
+        margin: 0;
+    }
+    .single-footer:first-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Section Titel */
+    .section-title{
+        line-height: 40px;
+        padding: 30px;
+    }
+    .section-title h4{
+        font-size: 16px;
+    }
+}
+
+/* Wide Mobile Device Checking Size- 500px */
+@media only screen and (min-width:480px) and (max-width:767){
+    .container{
+        width: 450px;
+    }
+}
